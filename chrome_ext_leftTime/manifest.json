@@ -1,0 +1,11 @@
+{
+  "name": "Time Left",
+  "description": "Override the new tab page with a blank one",
+  "version": "0.2",
+  "incognito": "split",
+  "permissions": ["history"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2
+}

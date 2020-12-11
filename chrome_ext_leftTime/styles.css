@@ -1,0 +1,42 @@
+div {
+  margin-top: 1em;
+  display: grid;
+  place-items: center;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e111ee;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#typedUrl_div {
+  color: grey;
+}
+
+.time {
+  font-size: 2rem;
+}
